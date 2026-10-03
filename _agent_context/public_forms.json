@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "hunde",
+      "app_id": "6ac12295f37991d52a121aee",
+      "path": "/rest/apps/6ac12295f37991d52a121aee/records",
+      "allowed_fields": [
+        "hundename",
+        "rasse",
+        "geschlecht",
+        "geburtsdatum",
+        "bemerkungen",
+        "halter_vorname",
+        "halter_nachname",
+        "halter_email",
+        "halter_telefon"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Hunde — Formular"
+    },
+    {
+      "entity": "kurse",
+      "app_id": "6ac12299b622279a56c520e6",
+      "path": "/rest/apps/6ac12299b622279a56c520e6/records",
+      "allowed_fields": [
+        "kursname",
+        "kursart",
+        "beschreibung",
+        "trainer_vorname",
+        "trainer_nachname",
+        "termin",
+        "dauer_minuten",
+        "ort",
+        "max_teilnehmer",
+        "preis"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kurse — Formular"
+    },
+    {
+      "entity": "anmeldungen",
+      "app_id": "6ac122993494b8b90e6ab80d",
+      "path": "/rest/apps/6ac122993494b8b90e6ab80d/records",
+      "allowed_fields": [
+        "anmeldedatum",
+        "status",
+        "bezahlt",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Anmeldungen — Formular"
+    }
+  ]
+}
